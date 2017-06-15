@@ -189,5 +189,46 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
   }
 }
 
+
+.scroll-content {
+   direction: rtl; 
+   text-align: right;
+   background: 
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ),
+    /* bottom, image */
+ /* url(/local/BPM_pix/bgbw.jpg);*/
+/*  url(/local/BPM_pix/bpmbg3.png);*/
+ url(https://my.bpm-music.com/local/BPM_pix/2zjb6fp.jpg);
+background-size: 700px;
+background-attachment: fixed;
+color: #d8d8d8;
+}
+}
+
+ .bar-side-menu {
+   background-color: #2b2b2b;
+   color: #d8d8d8;
+ }
+ 
+ .bar-content {
+   background-color: #2b2b2b;
+   color: #d8d8d8;
+ }
+ 
+ .button.button-positive {
+   border-color: blue;
+   background-color: blue;
+    color: #fff;
+ } 
+ 
+ .item-divider {
+   background-color: #fafafa;
+ }
+
+
 // Include all of Moodle Mobile.
 @import "www/build/mm.bundle.scss";
